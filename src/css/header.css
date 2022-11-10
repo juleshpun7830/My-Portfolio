@@ -1,0 +1,111 @@
+.header-wrap
+{
+    padding: 48px 0;
+}
+.header-wrap .header-heading-wrapper h4 ,h5
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+.header-wrap .header-heading-wrapper .header-person-name
+{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
+    padding: 15px 0;
+}
+.header-wrap .header-head-btns-wrapper
+{
+    padding: 30px 0;
+}
+
+
+/* Home-section */
+
+.home-wrap .home-center-image
+{
+    display: flex;
+    justify-content: center;
+}
+.home-wrap .home-center-image img {
+    height: 330px;
+    width: 100%;
+    background: linear-gradient( #4db5ff, transparent);
+    object-fit: contain;
+    border-top-left-radius: 12rem;
+    border-top-right-radius: 12rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+.home-wrap .home-right-scroll-down-icon
+{
+    display: flex;
+    justify-content: end;
+}
+.home-wrap .home-left-side-icons
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.home-wrap .home-left-side-icons .social-link
+{
+    color: #4db5ff;
+    font-size: 18px;
+    width: max-content;
+}
+.home-wrap .home-left-side-icons::after
+{
+    content: '';
+    height: 2rem;
+    width: 2px;
+    background: #4db5ff;
+    margin-left: 7px;
+}
+.home-wrap .home-left-side-icons .social-link svg:hover
+{
+    cursor: pointer;
+    color: #fff;
+    transition: 0.6s all;
+}
+.home-wrap .home-right-scroll-down-icon .scroll-down-arrow
+{
+    transform: rotate(90deg);
+    color: #4db5ff;
+    font-weight: 500;
+    position: relative;
+}
+.home-wrap .home-right-scroll-down-icon .scroll-down-icon
+{
+    color: #4db5ff;
+    position: absolute;
+    transform: rotate(268deg);
+    bottom: -3px;
+    right: -30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.6s all;
+}
+.home-wrap .home-right-scroll-down-icon .scroll-down-icon:hover
+{
+    color: #fff;
+    transition: 0.6s all;
+}
+
+
+
+
+
+/* responsive css */
+
+@media only screen and (max-width:1399px)
+{
+    /* .home-wrap .home-right-scroll-down-icon .scroll-down-icon
+    {
+        bottom: 20%;
+        right: 177px;
+    } */
+}

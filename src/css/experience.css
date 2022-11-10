@@ -1,0 +1,78 @@
+.experience-section .experience-heading h5
+{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 600;
+}
+.experience-section .experience-heading h2
+{
+    color: #4db5ff;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px 0;
+    margin: 0;
+}
+.experience-section .frontend-contents
+{
+    border: 1px solid rgba(255, 255, 255, 0.6);;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 30px;
+}
+.experience-section .frontend-contents h4
+{
+    color: #cfcfcf;
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+}
+.experience-section .frontend-contents .exp-icons
+{
+    color: #4db5ff;
+    margin-top: 4px;
+}
+.experience-section .experience-content
+{
+    padding: 10px;
+}
+.experience-section .experience-content .box
+{
+    display: flex;
+    background: #2c2c6c;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: all 0.5s;
+}
+.experience-section .experience-content .box:hover
+{
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(77, 181, 255, 0.4);;
+}
+.experience-section .experience-content .exp-text-box
+{
+    padding: 0 20px;
+    position: relative;
+}
+.experience-section .experience-content .exp-text-box .exp-logo
+{
+    position: absolute;
+    top: 6%;
+    right: -70%;
+    color: #4db5ff;
+    font-size: 40px;
+}
+.experience-section .experience-content .exp-text-box h3
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+.experience-section .experience-content .exp-text-box p
+{
+    color: rgba(255, 255, 255, 0.6);
+}

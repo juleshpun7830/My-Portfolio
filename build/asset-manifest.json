@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/juleshpun-portfolio-in-React_upload/static/css/main.69286db7.css",
+    "main.js": "/juleshpun-portfolio-in-React_upload/static/js/main.a4cc3975.js",
+    "static/js/787.28cb0dcd.chunk.js": "/juleshpun-portfolio-in-React_upload/static/js/787.28cb0dcd.chunk.js",
+    "static/media/me.jpg": "/juleshpun-portfolio-in-React_upload/static/media/me.68ab707949abf5faa784.jpg",
+    "static/media/cv.pdf": "/juleshpun-portfolio-in-React_upload/static/media/cv.5b2be7eef5c1fc0fc69c.pdf",
+    "static/media/work.png": "/juleshpun-portfolio-in-React_upload/static/media/work.c096e800425d1486d2cb.png",
+    "static/media/julesh.png": "/juleshpun-portfolio-in-React_upload/static/media/julesh.d93242ff2330d25a973c.png",
+    "index.html": "/juleshpun-portfolio-in-React_upload/index.html",
+    "main.69286db7.css.map": "/juleshpun-portfolio-in-React_upload/static/css/main.69286db7.css.map",
+    "main.a4cc3975.js.map": "/juleshpun-portfolio-in-React_upload/static/js/main.a4cc3975.js.map",
+    "787.28cb0dcd.chunk.js.map": "/juleshpun-portfolio-in-React_upload/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69286db7.css",
+    "static/js/main.a4cc3975.js"
+  ]
+}

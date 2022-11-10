@@ -1,0 +1,46 @@
+.my-projects .work-heading-wrap h2
+{
+    color: #4db5ff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+}
+.my-projects .work-items
+{
+    background: #2c2c6c;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    transition: all 0.6s;
+    margin-bottom: 1rem;
+}
+.my-projects .work-items:hover
+{
+    border-color: rgba(77, 181, 255, 0.4);
+    background: transparent;
+}
+.my-projects .work-items .work-item-image
+{
+    border-radius: 12px;
+    overflow: hidden;
+}
+.my-projects .work-items .work-item-image img
+{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+.my-projects .work-items h3
+{
+    margin: 20px 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 19px;
+}
+.my-projects .work-items .work-item-links
+{
+    display: flex;
+    gap: 20px;
+}

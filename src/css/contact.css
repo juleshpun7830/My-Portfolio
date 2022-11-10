@@ -1,0 +1,84 @@
+.contact-section .contact-heading h2
+{
+    color: #4db5ff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+}
+.contact-section .contact-left-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section .contact-left-wrapper .contact-options
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-section .contact-left-wrapper .contact-option
+{
+    background: #2c2c6c;
+    padding: 12px 50px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    transition: all 0.6s;
+}
+.contact-section .contact-left-wrapper .contact-option:hover
+{
+    background: transparent;
+    border-color: rgba(77, 181, 255, 0.4);
+    cursor: pointer;
+}
+.contact-section .contact-left-wrapper .contact-option .contact-option-icon
+{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.contact-section .contact-left-wrapper .contact-option h4
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+.contact-section .contact-left-wrapper .contact-option h5
+{
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact-section .contact-left-wrapper .contact-option a
+{
+    font-size: 14px;
+    display: inline-block;
+    color: #4db5ff;
+    font-weight: 600;
+    transition: all 0.6s;
+}
+.contact-section .contact-left-wrapper .contact-option a:hover
+{
+    color: #4db5ff;
+    letter-spacing: 1px;
+    transition: all 0.6s;
+}
+.contact-section .contact-right-wrapper form
+{
+    display: flex;
+    flex-direction: column;
+}
+.contact-section .contact-right-wrapper .contact-form input, .contact-section .contact-right-wrapper .contact-form textarea
+{
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    margin: 15px 0;
+    border: 1px solid rgba(77, 181, 255, 0.4);
+    resize: none;
+    color: #fff;
+}
+:focus-visible {
+    outline: none;
+}

@@ -1,0 +1,96 @@
+.about-me-section .about-me-heading h5
+{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 600;
+}
+.about-me-section .about-me-heading h2
+{
+    color: #4db5ff;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px 0;
+    margin: 0;
+}
+
+
+/* Section-2 starts */
+
+.about-me-section .about-me
+{
+    width: auto;
+    aspect-ratio: 1/1;
+    border-radius: 2rem ;
+    background: linear-gradient(45deg, transparent, #4db5ff, transparent);
+    display: grid;
+    place-items: center;
+    height: 350px;
+}
+.about-me-section .about-me-image
+{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 0.8s;
+}
+.about-me-section .about-me-image:hover
+{
+    transform: rotate(0);
+    cursor: pointer;
+}
+.about-me-section .about-me-image img
+{
+    object-fit: cover;
+    height: 350px;
+    width: auto;
+}
+
+.about-me-section .about-me-content-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.about-me-section .about-me-content-wrapper .about-me-content
+{
+    background: #2c2c6c;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s;
+}
+.about-me-section .about-me-content-wrapper .about-me-content:hover
+{
+    background: transparent;
+    border: 1px solid rgba(77, 181, 255, 0.4);;
+    cursor: pointer;
+}
+.about-me-section .about-me-content-wrapper .about-me-content .about-me-card .about-icon
+{
+    color: #4db5ff;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.about-me-section .about-me-content-wrapper .about-me-content .about-me-card h5
+{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about-me-section .about-me-content-wrapper .about-me-content .about-me-card small
+{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
+.about-me-section .small-info p
+{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 0;
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+}

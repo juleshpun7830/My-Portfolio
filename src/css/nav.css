@@ -1,0 +1,172 @@
+.navigation-section
+{
+    padding: 30px 0;
+}
+
+/* navbar-1 */
+
+/* .navigation-section .nav-bar
+{
+    position: relative;
+    width: 550px;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.navigation-section .nav-bar ul
+{
+    display: flex;
+    width: 350px;
+    padding: 0;
+}
+.navigation-section .nav-bar ul li
+{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+.navigation-section .nav-bar ul li a
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+}
+.navigation-section .nav-bar ul li a .icon
+{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color: #4db5ff;
+}
+.navigation-section .nav-bar ul li.active a .icon
+{
+    transform: translateY(-32px);
+}
+.navigation-section .nav-bar ul li a .text
+{
+    position: absolute;
+    color: #4db5ff;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.5em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+.navigation-section .nav-bar ul li.active .text
+{
+    opacity: 1;
+    transform: translateY(10px);
+}
+.indicator
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -50%;
+    border-radius: 50%;
+    background: #29fd53;
+    border: 6px solid #2c2c6c;;
+}
+.indicator::before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 0 0 #2c2c6c;
+}
+.indicator::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -10px 0 0 #2c2c6c;
+}
+.navigation-section .nav-bar ul li:nth-child(1).active ~ .indicator
+{
+    transform: translateX(cal(70px * 0));
+}
+.navigation-section .nav-bar ul li:nth-child(2).active ~ .indicator
+{
+    transform: translateX(cal(70px * 1));
+}
+.navigation-section .nav-bar ul li:nth-child(3).active ~ .indicator
+{
+    transform: translateX(cal(70px * 2));
+}
+.navigation-section .nav-bar ul li:nth-child(4).active ~ .indicator
+{
+    transform: translateX(cal(70px * 3));
+}
+.navigation-section .nav-bar ul li:nth-child(5).active ~ .indicator
+{
+    transform: translateX(cal(70px * 4));
+} */
+
+/* navbar-1 ends */
+
+
+section
+{
+    height: 100vh;
+}
+
+
+/* navbar-2  */
+
+.navigation-section .nav-bar-2
+{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 10px 50px;
+    z-index: 5;
+    bottom: 15px;
+    display: flex;
+    gap: 15px;
+    border-radius: 35px;
+    backdrop-filter: blur(15px);
+    position: fixed;
+}
+.navigation-section .nav-bar-2 a
+{
+    background: transparent;
+    padding: 0.9rem;
+    display: flex;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    transition: all 0.6s;
+}
+.navigation-section .nav-bar-2 a:hover
+{
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.6s;
+}
+.navigation-section .nav-bar-2 a.active
+{
+    background: #4db5ff;
+    color: #1f1f38;
+}
